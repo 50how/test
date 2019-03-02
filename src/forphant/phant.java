@@ -15,6 +15,7 @@ public class phant {
 		         driver = new PhantomJSDriver();
 		        driver.get("http://www.baidu.com");
 		        System.out.println(driver.getTitle().toString());
+		        ///
 
 	}
 	 
