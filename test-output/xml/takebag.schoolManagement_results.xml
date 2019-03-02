@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32.199">
+  <properties />
+  
+  
+            <testcase name="Login" time="8.163" classname="takebag.schoolManagement" />
+                <testcase name="CreateSchool" time="24.036" classname="takebag.schoolManagement" />
+      
+</testsuite>

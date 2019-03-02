@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+          <listeners>
+                     <listener class-name="org.uncommons.reportng.HTMLReporter" />
+                     <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+            </listeners>
+
+  <test name="Test">
+    <classes>
+      <class name="takebag.schoolManagement"/>
+      <class name="takebag.contentManagement"/>
+      <class name="takebag.userManagement"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
