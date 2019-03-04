@@ -1,0 +1,45 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 201 ciObject found
+instanceKlass org/codehaus/plexus/component/repository/ComponentRequirement
+instanceKlass org/apache/maven/plugin/MavenPluginValidator
+instanceKlass org/codehaus/plexus/component/repository/ComponentDependency
+instanceKlass org/apache/maven/plugin/descriptor/Parameter
+instanceKlass org/codehaus/plexus/configuration/DefaultPlexusConfiguration
+instanceKlass org/apache/maven/repository/internal/ArtifactDescriptorReaderDelegate
+instanceKlass org/apache/maven/model/Notifier
+instanceKlass org/apache/maven/model/ActivationFile
+instanceKlass org/apache/maven/model/Site
+instanceKlass org/eclipse/aether/util/version/GenericVersion$Item
+instanceKlass org/eclipse/aether/util/version/GenericVersion$Tokenizer
+instanceKlass org/eclipse/aether/util/version/GenericVersion
+instanceKlass org/eclipse/aether/util/version/GenericVersionConstraint
+instanceKlass org/eclipse/aether/version/VersionRange
+instanceKlass org/eclipse/aether/version/VersionConstraint
+instanceKlass org/eclipse/aether/util/version/GenericVersionScheme
+instanceKlass java/util/Formattable
+instanceKlass java/util/Formatter$Conversion
+instanceKlass java/util/Formatter$Flags
+instanceKlass java/util/Formatter$FormatSpecifier
+instanceKlass java/util/Formatter$FixedString
+instanceKlass java/util/Formatter$FormatString
+instanceKlass java/util/Formatter
+instanceKlass org/apache/maven/repository/internal/DefaultModelCache$Key
+instanceKlass org/apache/maven/model/building/ModelCacheTag$2
+instanceKlass org/apache/maven/model/building/ModelCacheTag$1
+instanceKlass org/apache/maven/repository/internal/DefaultModelResolver
+instanceKlass org/apache/maven/repository/internal/DefaultModelCache
+instanceKlass java/nio/channels/spi/AbstractInterruptibleChannel$1
+instanceKlass sun/nio/ch/Interruptible
+instanceKlass sun/nio/ch/FileKey
+instanceKlass sun/nio/ch/FileLockTable
+instanceKlass sun/nio/ch/NativeThread
+instanceKlass java/nio/channels/FileLock
+instanceKlass sun/nio/ch/FileDispatcherImpl$1
+instanceKlass sun/nio/ch/NativeDispatcher
+instanceKlass sun/nio/ch/NativeThreadSet
+instanceKlass java/net/Inet6Address$Inet6AddressHolder
+instanceKlass java/net/InetAddress$2
+instanceKlass sun/net/spi/nameservice/NameService
+instanceKlass java/net/Inet6AddressImpl
