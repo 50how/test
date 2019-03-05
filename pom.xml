@@ -8,7 +8,7 @@
   <name>product-gateway</name>
   <url>http://maven.apache.org</url> 
   <dependencies>
-    <dependency>
+<!--    <dependency>
        <groupId>org.uncommons</groupId>
        <artifactId>reportng</artifactId>
        <version>1.1.4</version>
@@ -20,6 +20,14 @@
          </exclusion>
        </exclusions>
     </dependency>
+ --> 
+ <!-- https://mvnrepository.com/artifact/velocity/velocity -->
+<dependency>
+    <groupId>velocity</groupId>
+    <artifactId>velocity</artifactId>
+    <version>1.4-dev</version>
+</dependency>
+ 
     <dependency>
        <groupId>com.google.inject</groupId>
        <artifactId>guice</artifactId>
@@ -57,6 +65,13 @@
     <version>2.53.1</version>
     </dependency>
     
+   <dependency> 
+  <groupId>reportng</groupId> 
+  <artifactId>reportng</artifactId> 
+ <version>1.1.5</version> 
+ <scope>system</scope> 
+ <systemPath>${project.basedir}/libs/reportng-1.1.5.jar</systemPath> 
+  </dependency> 
     
 
     <dependency>
@@ -84,8 +99,14 @@
             <configuration>
                 <source>1.6</source>
                 <target>1.6</target>
+                <!-- 项目编码-->
+            <encoding>UTF-8</encoding>
             </configuration>
         </plugin>
     </plugins>
   </build>
+  <properties>
+       <!--项目编码改为UTF-8 -->
+       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+   </properties>
 </project>
