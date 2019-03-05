@@ -3,6 +3,7 @@
   <test name="Test">
     <classes>
       <class name="yt.NewTest"/>
+      <class name="yt.NewTest2"/>
     </classes>
     
   </test> <!-- Test -->

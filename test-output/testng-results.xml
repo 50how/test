@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="34" started-at="2019-03-05T02:21:54Z" finished-at="2019-03-05T02:21:54Z">
+  <suite name="Default suite" duration-ms="4781" started-at="2019-03-05T09:32:38Z" finished-at="2019-03-05T09:32:43Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="34" started-at="2019-03-05T02:21:54Z" finished-at="2019-03-05T02:21:54Z">
+    <test name="Default test" duration-ms="4781" started-at="2019-03-05T09:32:38Z" finished-at="2019-03-05T09:32:43Z">
       <class name="yt.NewTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:yt.NewTest@4516af24]" name="f" duration-ms="10" started-at="2019-03-05T02:21:54Z" finished-at="2019-03-05T02:21:54Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:yt.NewTest@5ed828d]" name="f" duration-ms="4758" started-at="2019-03-05T09:32:38Z" finished-at="2019-03-05T09:32:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- yt.NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
