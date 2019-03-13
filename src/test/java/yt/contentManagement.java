@@ -13,7 +13,7 @@ public class contentManagement {
 	  
 	  System.out.println();
 	  Reporter.log("内容查询失败");
-//	  Assert.assertTrue(false);
+	  Assert.assertTrue(false);
   }
  
   
