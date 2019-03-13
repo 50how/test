@@ -1,17 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[内容查询失败]]>
+    </line>
+    <line>
+      <![CDATA[学校创建成功]]>
+    </line>
+    <line>
+      <![CDATA[用户管理查询成功]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="34" started-at="2019-03-05T02:21:54Z" finished-at="2019-03-05T02:21:54Z">
+  <suite name="Suite" duration-ms="44" started-at="2019-03-13T01:51:29Z" finished-at="2019-03-13T01:51:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="34" started-at="2019-03-05T02:21:54Z" finished-at="2019-03-05T02:21:54Z">
-      <class name="yt.NewTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:yt.NewTest@4516af24]" name="f" duration-ms="10" started-at="2019-03-05T02:21:54Z" finished-at="2019-03-05T02:21:54Z">
+    <test name="Test" duration-ms="44" started-at="2019-03-13T01:51:29Z" finished-at="2019-03-13T01:51:29Z">
+      <class name="yt.schoolManagement">
+        <test-method status="PASS" signature="createschool()[pri:0, instance:yt.schoolManagement@16022d9d]" name="createschool" duration-ms="2" started-at="2019-03-13T01:51:29Z" finished-at="2019-03-13T01:51:29Z">
           <reporter-output>
+            <line>
+              <![CDATA[学校创建成功]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- yt.NewTest -->
+        </test-method> <!-- createschool -->
+      </class> <!-- yt.schoolManagement -->
+      <class name="yt.contentManagement">
+        <test-method status="FAIL" signature="checkcontent()[pri:0, instance:yt.contentManagement@543788f3]" name="checkcontent" duration-ms="12" started-at="2019-03-13T01:51:29Z" finished-at="2019-03-13T01:51:29Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at yt.contentManagement.checkcontent(contentManagement.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[内容查询失败]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkcontent -->
+      </class> <!-- yt.contentManagement -->
+      <class name="yt.userManagement">
+        <test-method status="PASS" signature="checkuser()[pri:0, instance:yt.userManagement@7e9a5fbe]" name="checkuser" duration-ms="1" started-at="2019-03-13T01:51:29Z" finished-at="2019-03-13T01:51:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[用户管理查询成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkuser -->
+      </class> <!-- yt.userManagement -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
